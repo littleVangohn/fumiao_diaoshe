@@ -1,0 +1,19 @@
+# ROS2 / colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Offline demo outputs
+cpp_out*/
+offline_out*/
+/tmp/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

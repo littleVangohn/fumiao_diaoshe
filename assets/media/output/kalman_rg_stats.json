@@ -1,0 +1,38 @@
+{
+  "source": "../test_data/base_orbit.mp4",
+  "frames": 600,
+  "fps": 30.0,
+  "source_width": 1440,
+  "source_height": 1080,
+  "estimator": "A4_kalman",
+  "estimator_params": {
+    "q_pos": 1313.07,
+    "q_size": 0.000510016,
+    "r_pos": 25.3156,
+    "r_size": 0.016075,
+    "gate_chi2": 16.0,
+    "gate_reinit": 3.0,
+    "p0_vel": 283.212,
+    "p0_size_vel": 0.707658,
+    "hold": 2
+  },
+  "fallback": "RGDetector(max_pairs=60, dy_max=0.80)",
+  "raw_method_counts": {
+    "RG_LAMP": 56,
+    "PAIR": 447,
+    "RG_SINGLE": 95
+  },
+  "encoded_width": 320,
+  "encoded_height": 240,
+  "display_width": 640,
+  "display_height": 480,
+  "stream_bytes": 190338,
+  "bitrate_kbps": 76.1352,
+  "packets": 668,
+  "packet_bytes": 200400,
+  "n_lost": 0,
+  "video": "kalman_rg_640x480.mp4",
+  "h264": "kalman_rg_320x240.h264",
+  "estimates": "estimates.csv",
+  "note": "RG-SINGLE fallback; frozen QPMAP/encoder/packetizer."
+}

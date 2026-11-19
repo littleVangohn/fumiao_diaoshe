@@ -1,0 +1,8 @@
+roi_detector:
+  ros__parameters:
+    max_pairs: 60
+    min_pairs: 5
+    max_template_age: 120
+    cov_reg: 0.0025
+    mahal_max: 4.0
+    dy_max: 0.8

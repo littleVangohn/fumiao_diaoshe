@@ -1,0 +1,11 @@
+roi_estimator:
+  ros__parameters:
+    q_pos: 1313.07
+    q_size: 0.000510016
+    r_pos: 25.3156
+    r_size: 0.016075
+    gate_chi2: 16.0
+    gate_reinit: 3
+    p0_vel: 283.212
+    p0_size_vel: 0.707658
+    hold: 2

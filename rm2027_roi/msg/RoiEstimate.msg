@@ -1,0 +1,11 @@
+std_msgs/Header header
+bool valid
+float64 cx
+float64 cy
+float64 w
+float64 h
+string track_state
+string source
+float64 prediction_horizon_s
+float64 uncertainty
+float64 update_cost_ms

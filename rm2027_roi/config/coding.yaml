@@ -1,0 +1,4 @@
+roi_crop:
+  ros__parameters:
+    bg_qp: 10
+    fg_qp: -5
